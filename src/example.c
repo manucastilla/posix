@@ -36,7 +36,7 @@ int div_zero()
 int muito_trabalho()
 {
     int oi;
-    for (int i = 0; i < 20; i++)
+    for (int i = 0; i < 100; i++)
     {
         int x = 1 + i;
         for (int j = 0; j < 40; j++)

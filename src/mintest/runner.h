@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
             if (all_tests[i].function() == 0)
             {
                 end = clock();
-                printf("\033[0;32m %s: [PASS], %lf\033[0m;\n", all_tests[i].name, (double)(end - start) / CLOCKS_PER_SEC);
+                printf("\033[0;32m %s: [PASS], (%lfs) \033[0m;\n", all_tests[i].name, (double)(end - start) / CLOCKS_PER_SEC);
                 return 0;
             }
             return 1;
