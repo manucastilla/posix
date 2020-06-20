@@ -1,6 +1,7 @@
 # POSIX
-O objetivo deste trabalho foi trabalhar e focar em conceitos de sistemas operacionais, mais especificamente com o padrão POSIX. Assim, neste lab foi feito um framework de testes usando as chamadas de sistemas, aprimorando então o programa.
+O objetivo desse trabalho foi desenvolver e focar em conceitos de sistemas operacionais, mais especificamente o padrão POSIX. Para aprimorar o programa foi realizado um framework de testes utilizando as chamadas de sistemas.
 
+neste arquivo contem todos os testes que o programa roda, sendo eles:
 
 **Estrutura do projeto**
 - ```example.c```: neste arquivo contêm todos os testes que o programa roda. Nele contêm tais testes:
@@ -8,7 +9,7 @@ O objetivo deste trabalho foi trabalhar e focar em conceitos de sistemas operaci
     2. Cause erro e termine com divisão por zero 
     3. Fique em loop infinito
     4. Faça muito trabalho, mas eventualmente acabe (sem usar sleep ) 
-    5. Com asserts que falham e passem no mesmo teste 
+    5. Com asserts que falham e passam no mesmo teste
     6. Com testes que façam muitos prints 
     7. Com testes que sejam rápidos
     8. Com testes que sejam lentos (pode usar sleep para simular).
